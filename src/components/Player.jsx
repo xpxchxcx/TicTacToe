@@ -20,6 +20,7 @@ export default function Player({initialName, symbol, isActive})
 
     // Rendering content conditionally
     let playerName =  <span className="player-name">{nameEdit}</span>
+    
     if (isEditing)
     {
         playerName = (
